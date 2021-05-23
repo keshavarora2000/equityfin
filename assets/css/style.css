@@ -370,7 +370,7 @@ footer div {
         padding: 1rem 0 2rem 0;
     }
     .navbar {
-        width: 84%;
+        width: 90%;
         padding: 1rem 5%;
     } 
     .points {
@@ -397,7 +397,8 @@ footer div {
 
     .benefits div:first-child {
         width: 90%;
-        padding: 1rem 5%;
+        padding: 0 5% 1rem 5%;
+        border-bottom: 1px solid #0046bb;
     }
     .navbar .register-only {
         display: block;
@@ -406,13 +407,7 @@ footer div {
         display: none;
     }
     .ipo {
-        flex-direction: column;
-        width: 90%;
-        padding: 2rem 5%;
-        text-align: center;
-    }
-    .ipo .image img {
-        width: 100%;
+        display: none;
     }
     .des .point {
         padding: 1rem 5%;
