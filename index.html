@@ -19,23 +19,22 @@
 
     <!-- Facebook Pixel Code -->
       <script>
-        !function(f,b,e,v,n,t,s)
-        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-        n.queue=[];t=b.createElement(e);t.async=!0;
-        t.src=v;s=b.getElementsByTagName(e)[0];
-        s.parentNode.insertBefore(t,s)}(window, document,'script',
-        'https://connect.facebook.net/en_US/fbevents.js');
-        fbq('init', '962152394360277');
-        fbq('track', 'PageView');
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window, document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '1241161766301844');
+      fbq('track', 'PageView');
       </script>
       <noscript><img height="1" width="1" style="display:none"
-        src="https://www.facebook.com/tr?id=962152394360277&ev=PageView&noscript=1"/>
+      src="https://www.facebook.com/tr?id=1241161766301844&ev=PageView&noscript=1"/>
       </noscript>
     <!-- End Facebook Pixel Code -->
-
-
+  
 </head>
 <body>
     <!-- TradingView Widget BEGIN -->
@@ -103,42 +102,141 @@
         <header class="container">
             <div class="navbar">
                 <div class="brand">
-                    <img src="assets/img/logo.jpg" alt="Brand Logo" class="logo" width="100px" height="auto">
+                    <img src="assets/img/logo-main.jpg" alt="Brand Logo" class="logo" width="100px" height="auto">
                 </div>
-                <div class="contact-us">
-                    <a href="#contact">CONTACT US</a>
-                </div>
+                <nav>
+                  <ul>
+                    <li class="item"><a href="#">Home</a></li>
+                    <li class="item"><a href="#benefits">Download</a></li>
+                    <li class="item"><a href="#contact">Contact</a></li>
+                    <li class="item register-only">
+                      <a href="#form" class="register">Register</a>
+                    </li>
+                  </ul>
+                </nav>
             </div>
         </header>
         <!-- https://upstox.com/open-account/?f=FG7630 -->
         <iframe name="hidden_iframe" id="hidden_iframe" style="display: none" onload="if(submitted){window.location='thanks.html';}"></iframe>
 
         <!-- FORM STARTS HERE  -->
-        <section class="form">
-            <div class="main-head">
-                <i>"An investment in knowledge pays the best interest"&nbsp;</i>
-                 - Warren Buffet
+        <section class="main">
+            <div class="image">
+              <img src="./assets/img/returns.jpg" alt="app image" class="iphone">
             </div>
-            <form method="POST" action="https://docs.google.com/forms/u/5/d/e/1FAIpQLSfdIwvdwGPuq-hVddFIvr8dE_m-_n6rIGof2h-0T2JCp3jKvA/formResponse" target="hidden_iframe" onsubmit="submitted=true">
-                <h2 class="form-heading">TO CLAIM YOUR VOUCHERS FILL THE FORM BELOW</h2>
-                <input type="text" name="entry.309456403" id="first-name" placeholder="First Name*" required>
-                <input type="text" name="entry.448394263" id="last-name" placeholder="Last Name*" required>
-                <input type="email" name="entry.1925251677" id="e-mail" placeholder="example@domain.com*" required>
-                <button type="submit" title="Submitting this will redirect you to official website of Upstox">SUBMIT</button>
-            </form>
+            <div class="main-head">
+                " An investment in knowledge pays the best interest "&nbsp;
+                <div class="author">
+                   Warren Buffet 
+                </div>
+            </div>
         </section>
     </div>
     <!-- HERO PAGE ENDED  -->
 
-    <!-- ABSOLUTE BACKGROUND  -->
-    <div class="laptop-background">
-        <img src="assets/img/background.jpg" alt="background-image" width="100%" height="auto">
-    </div>
+    <section class="point-section">
+      <div class="points">
+        <div class="point">
+          <div class="icon"><i class="fas fa-money-check-alt"></i></div>
+          <h3 class="head">Financial Literacy</h3>
+          <p class="des"> 
+            Investing and managing your personal finance is most important skill of the 21st century
+          </p>        
+        </div>
+        <div class="point">
+          <div class="icon"><i class="fas fa-asterisk"></i></div>
+          <h3 class="head">Risk Management</h3>
+          <p class="des"> 
+            Investments are risky but they can be minimized  by taking right knowledge and good decision  
+          </p>        
+        </div>
+        <div class="point">
+          <div class="icon"><i class="fas fa-tasks"></i></div>
+          <h3 class="head">Diversification</h3>
+          <p class="des"> 
+            Apart from stocks, investing in Gold, IPO, M.F and SIP help you in managing risk and generate good returns  
+          </p>        
+        </div>
+      </div>
+      <div class="main-point">
+        * * Learning is the initial step and it makes you ready for the acquisition of goals! * *
+      </div>
+    </section>
 
-    <div class="mobile-background">
-      <img src="assets/img/mobile-bg.jpg" alt="background-image" width="100%" height="auto">
-    </div>
-  
+    <section class="benefits" id="benefits">
+      <div>
+        <h1 class="heading">BENEFITS</h1>
+        <p class="description">
+          Upstox is trusted by 30 lakh investors all over India and you can be one of them 
+          just by selecting the signup button given here!
+        </p>
+        <p class="line">
+          Avail these extra benefits along the way while you create your DEMAT account through us-
+        </p>
+        <ul>
+          <li class="item"><i class="fas fa-check"></i>Zero Brokerage on equity delivery</li>
+          <li class="item"><i class="fas fa-check"></i>Rs.20 per order for intraday</li>
+          <li class="item"><i class="fas fa-check"></i>Free course worth ₹3999 from elearnmarkets</li>
+          <li class="item"><i class="fas fa-check"></i>₹100 Amazon voucher on signup</li>
+          <li class="item"><i class="fas fa-check"></i>Free digital gold worth ₹51 on every signup</li>
+        </ul>
+        <div class="download">
+          <a href="https://upstox.com/open-demat-account/?f=FG7630">
+            <img src="./assets/img/playstore.png" alt="playstore download" class="playstore">
+          </a>
+          <a href="https://upstox.com/open-demat-account/?f=FG7630">
+            <img src="./assets/img/app-store.png" alt="appstore download" class="appstore">
+          </a>
+        </div>
+      </div>
+      <div class="image">
+        <img src="./assets/img/iPhone.jpg" alt="iphone image">
+      </div>
+    </section>
+
+    <section class="ipo">
+      <div class="image">
+        <img src="./assets/img/ipo.jpg" alt="IPO returns">
+      </div>
+      <div class="def">
+        <div class="head">What is IPO?</div>
+        <p class="des">
+          A process by which private companies offering its shares to the public
+          for the first time.
+          To get its name listed on the stock exchange.
+        </p>
+        <div class="sec-head">How individual invester can invest in IPO?</div>
+        <div class="des">
+          <div class="point">
+            <i class="fas fa-check"></i>
+            <p>Individual investor usually apply for IPO through demat account / net banking.</p>
+          </div>
+          <div class="point">
+            <i class="fas fa-check"></i>
+            <p>An investor looks after the company's fundamentals and GMP before investing.</p>
+          </div>
+          <div class="point">
+            <i class="fas fa-check"></i>
+            <p>GMP( Grey Market Premium ) is the most commonly and widely used measure by investors 
+            seeking short term gains.</p>  
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FORM SECTION  -->
+    <section class="form" id="form">
+      <form method="POST" action="https://docs.google.com/forms/u/5/d/e/1FAIpQLSfdIwvdwGPuq-hVddFIvr8dE_m-_n6rIGof2h-0T2JCp3jKvA/formResponse" target="hidden_iframe" onsubmit="submitted=true">
+        <h2 class="form-heading">TO CLAIM YOUR VOUCHERS, FILL THE FORM BELOW</h2>
+        <div class="name">
+          <input type="text" name="entry.309456403" id="first-name" placeholder="First Name*" required>
+          <input type="text" name="entry.448394263" id="last-name" placeholder="Last Name*">
+        </div>
+        <input type="email" name="entry.1925251677" id="e-mail" placeholder="example@domain.com*" required>
+        <button type="submit" title="Submitting this will redirect you to official website of Upstox">SUBMIT</button>
+    </form>
+    </section>
+
     <!-- CONTACT SECTION  -->
     <section id="contact">
         <a href="mailto:support@equityfin.in">support@equityfin.in</a>
@@ -154,6 +252,10 @@
             <a href="https://twitter.com/Equityfin1?s=08"><i class="fab fa-twitter"></i></a>
         </div>
         <div class="copyright">&copy; 2021 Equityfin</div>
+        <div class="disclaimer">
+          <p>* * All the investments are subject to market risk * *</p>
+          <p>* * Not a financial advisor, for education purpose only * *</p>
+        </div>
     </footer>
 
 
@@ -162,3 +264,5 @@
 
 </body>
 </html>
+
+
