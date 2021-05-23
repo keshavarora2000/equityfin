@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv = "refresh" content = "7; url = https://upstox.com/open-account/?f=FG7630" />
+    <!-- <meta http-equiv = "refresh" content = "3; url = https://upstox.com/open-account/?f=FG7630" /> -->
     <title>Thankyou</title>
 
     <link rel="shortcut icon" href="assets/img/small-logo.jpeg" type="image/x-icon">
@@ -16,24 +16,33 @@
 
     <style>
     .content {
-        border: 30px solid #82BF80;
-        background-color: #0A2B40;
-    }
-    .main-page {
         width: 70%;
-        margin: 12.5%;
+        margin: 10% 15%;
         text-align: center;
     }
-    .main-page h1 {
+    .main-box {
+        padding: 7%;
+        box-shadow: 0 0 16px #0046bb;
+    }
+    .main-box .logo img {
+        height: 100px;
+        width: auto;
+    }
+    .main-box h1 {
+        padding: 2rem 0;
         font-family: 'Merriweather', sans-serif;
         font-size: 2.5rem;
     }
-    .main-page p {
-        font-size: 1.5rem;
-    }
     @media screen and ( max-width: 425px ) {
-        .main-page {
-            padding: 19% 0;
+        .main-box {
+            padding: 15% 0;
+        }
+        .main-box .logo img {
+            height: 45px;
+            width: auto;
+        }
+        .main-box h1 {
+            padding: 10rem 0;
         }
     }
     </style>
@@ -60,12 +69,11 @@
 </head>
 <body>
     <div class="content">
-        <div class="main-page">
+        <div class="main-box">
+            <div class="logo">
+                <img src="./assets/img/logo-main.jpg" alt="Logo">
+            </div>
             <h1>Thank You for registering with us</h1>
-            <p>To claim your  free course  worth &#8377; 4720, 
-            <strong>on Basics of Financial Market</strong> and Amazon shopping voucher worth &#8377; 100 .</p>
-            <p><strong>CREATE A FREE DEMAT ACCOUNT BY CLICKING ON THE BUTTON</strong></p>
-            <button><a href="https://upstox.com/open-account/?f=FG7630">CLICK HERE</a></button>
         </div>
     </div>
 </body>
