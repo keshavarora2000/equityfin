@@ -223,16 +223,17 @@
 
     <!-- FORM SECTION  -->
     <section class="form" id="form">
-      <form method="POST" action="https://docs.google.com/forms/u/5/d/e/1FAIpQLSfdIwvdwGPuq-hVddFIvr8dE_m-_n6rIGof2h-0T2JCp3jKvA/formResponse" target="hidden_iframe" onsubmit="submitted=true">
+      <form method="POST" action="https://docs.google.com/forms/u/5/d/e/1FAIpQLSfdIwvdwGPuq-hVddFIvr8dE_m-_n6rIGof2h-0T2JCp3jKvA/formResponse" target="hidden_iframe" onsubmit="myFunction()">
         <h2 class="form-heading">TO CLAIM YOUR VOUCHERS, FILL THE FORM BELOW</h2>
         <div class="name">
           <input type="text" name="entry.309456403" id="first-name" placeholder="First Name*" required>
           <input type="text" name="entry.448394263" id="last-name" placeholder="Last Name*">
         </div>
-        <input type="email" name="entry.1925251677" id="e-mail" placeholder="example@domain.com*" required>
-        <div class="submit">
+        <input type="email" name="entry.1925251677" id="e-mail" placeholder="example@domain.com*" required> 
+        <input type="submit" value="Submit" class="submit">
+          <!-- <button type="submit" class="submit">
           <a href="thanks.html">SUBMIT</a>
-        </div>
+        </button> -->
         </form>
     </section>
 
@@ -262,6 +263,13 @@
     <script rel="dns-prefetch" src="https://kit.fontawesome.com/b2dc16cd4d.js" crossorigin="anonymous"></script>
 
 </body>
+
+<script> 
+    function myFunction() {  
+      window.location.href="thanks.html";  
+    }
+</script>
+
 </html>
 
 
